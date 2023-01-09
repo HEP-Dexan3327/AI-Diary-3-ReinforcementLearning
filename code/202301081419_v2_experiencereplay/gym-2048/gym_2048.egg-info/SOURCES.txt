@@ -1,0 +1,12 @@
+setup.py
+gym_2048/__init__.py
+gym_2048.egg-info/PKG-INFO
+gym_2048.egg-info/SOURCES.txt
+gym_2048.egg-info/dependency_links.txt
+gym_2048.egg-info/requires.txt
+gym_2048.egg-info/top_level.txt
+gym_2048/envs/__init__.py
+gym_2048/envs/typical2048.py
+gym_2048/wrappers/__init__.py
+gym_2048/wrappers/clip_reward.py
+gym_2048/wrappers/discrete_actions.py

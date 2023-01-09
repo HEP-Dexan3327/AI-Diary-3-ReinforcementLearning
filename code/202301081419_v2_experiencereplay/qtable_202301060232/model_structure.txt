@@ -1,0 +1,47 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ reshape (Reshape)           (None, 4, 4, 4, 16)       0         
+                                                                 
+ conv2d (Conv2D)             (None, 4, 4, 4, 128)      8320      
+                                                                 
+ conv2d_1 (Conv2D)           (None, 4, 4, 4, 32)       16416     
+                                                                 
+ reshape_1 (Reshape)         (None, 2048)              0         
+                                                                 
+ dense (Dense)               (None, 128)               262272    
+                                                                 
+ dense_1 (Dense)             (None, 4)                 516       
+                                                                 
+=================================================================
+Total params: 287,524
+Trainable params: 287,524
+Non-trainable params: 0
+_________________________________________________________________
+Model trained from loaded file: None
+Parameters: 	buffer size: None
+				* best capacity: None
+				* gamma: 0.95, epsilon: 0.5 (decay = 0.999, min = 0)
+				* lr: 0.0005 (decay = 1)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ reshape (Reshape)           (None, 4, 4, 4, 16)       0         
+                                                                 
+ conv2d (Conv2D)             (None, 4, 4, 4, 128)      8320      
+                                                                 
+ conv2d_1 (Conv2D)           (None, 4, 4, 4, 32)       16416     
+                                                                 
+ reshape_1 (Reshape)         (None, 2048)              0         
+                                                                 
+ dense (Dense)               (None, 128)               262272    
+                                                                 
+ dense_1 (Dense)             (None, 4)                 516       
+                                                                 
+=================================================================
+Total params: 287,524
+Trainable params: 287,524
+Non-trainable params: 0
+_________________________________________________________________
